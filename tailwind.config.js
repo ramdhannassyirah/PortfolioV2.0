@@ -13,6 +13,7 @@ export default {
       fontFamily: {
         DotGothic16: ["DotGothic16"],
         Pixelify: "Pixelify Sans",
+        Manrope: "Manrope",
       },
     },
   },

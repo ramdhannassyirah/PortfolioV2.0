@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     families: {
       DotGothic16: true,
       "Pixelify Sans": true,
+      Manrope: true,
     },
   },
 });

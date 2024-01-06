@@ -25,7 +25,7 @@
       <div class="text-logo">
         <h1 class="font-bold">Ramdhan Nassyirah</h1>
       </div>
-      <div class="inline-flex gap-5 sosial-media">
+      <div class="inline-flex flex-col md:flex-row md:gap-5 sosial-media">
         <a href="">Instagram</a>
         <a href="">Gmail</a>
         <a href="">LinkedIn</a>

@@ -1,7 +1,11 @@
 <template>
-  <div class="">
+  <div class="md:px-5 bg-[#ebebedff]">
     <header>
-      <HeroWeb />
+      <heroWeb />
     </header>
+    <main>
+      <aboutWeb />
+      <projectsWeb />
+    </main>
   </div>
 </template>
