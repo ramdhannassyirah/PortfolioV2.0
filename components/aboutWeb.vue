@@ -1,12 +1,12 @@
 <template>
   <section id="about" class="container mx-auto mt-24">
-    <div class="flex flex-col gap-4 px-4 md:px-0 lg:px-0">
+    <div class="flex flex-col gap-4 px-4 overflow-hidden md:px-0 lg:px-0">
       <div>
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           About Me
         </h1>
       </div>
-      <div class="flex flex-wrap lg:flex-nowrap gap-4 items-center">
+      <div class="flex flex-wrap items-center gap-4 lg:flex-nowrap">
         <div class="flex flex-col gap-4 font-Manrope">
           <p v-motion-fade-visible>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -48,12 +48,12 @@
           </div>
         </div>
       </div>
-      <div class="experience flex flex-col gap-4">
+      <div class="flex flex-col gap-4 experience">
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           Experience
         </h1>
         <div
-          class="flex sm:flex-nowrap flex-wrap md:flex-nowrap lg:flex-nowrap"
+          class="flex flex-wrap sm:flex-nowrap md:flex-nowrap lg:flex-nowrap"
         >
           <div
             class="mr-3 mt-3 min-h-fit max-w-[400px] rounded-xl bg-[#eda29aff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
