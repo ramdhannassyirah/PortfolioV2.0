@@ -6,8 +6,8 @@
           About Me
         </h1>
       </div>
-      <div class="flex flex-wrap items-center gap-4 lg:flex-nowrap">
-        <div class="flex flex-col gap-4 font-Manrope">
+      <div class="flex flex-wrap items-center gap-6 lg:flex-nowrap">
+        <div class="flex flex-col gap-4 font-Manrope w-[80%]">
           <p v-motion-fade-visible>
             Greetings! I'm Ramdhan Nassyirah, a versatile Frontend Developer
             with a knack for HTML, CSS, JavaScript, Vuejs and Nuxtjs.
