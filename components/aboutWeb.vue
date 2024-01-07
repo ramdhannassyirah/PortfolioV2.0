@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="container mx-auto mt-24">
-    <div class="flex flex-col gap-4 px-4 overflow-hidden md:px-0 lg:px-0">
+    <div class="flex flex-col gap-4 px-4 md:px-0 lg:px-0">
       <div>
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           About Me
@@ -48,7 +48,7 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col gap-4 experience">
+      <div class="flex flex-col gap-4 pb-10 overflow-hidden experience">
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           Experience
         </h1>
