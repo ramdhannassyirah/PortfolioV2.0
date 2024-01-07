@@ -1,11 +1,8 @@
 <template>
-  <div class="md:px-5 bg-[#ebebedff]">
-    <header>
-      <heroWeb />
-    </header>
-    <main>
-      <aboutWeb />
-      <projectsWeb />
-    </main>
+  <div class="md:px-7 bg-[#e8e3d5ff]">
+    <heroWeb />
+    <aboutWeb />
+    <projectsWeb />
+    <contactWeb />
   </div>
 </template>
