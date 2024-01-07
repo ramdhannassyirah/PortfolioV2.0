@@ -1,6 +1,6 @@
 <template>
   <section id="hero " class="container mx-auto">
-    <nav class="py-6">
+    <nav class="py-6 px-6 md:px-0 lg:px-0">
       <div class="flex justify-between relative">
         <div class="">
           <a class="font-DotGothic16 font-bold"> RAMDHAN NASSYIRAH </a>
