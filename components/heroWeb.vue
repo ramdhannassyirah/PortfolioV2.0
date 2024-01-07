@@ -1,21 +1,24 @@
 <template>
   <section id="hero " class="container mx-auto">
-    <nav class="py-6 w-full">
-      <div class="text-logo flex justify-between">
-        <div class="" v-motion-slide-visible-left>
+    <nav class="py-6">
+      <div class="flex justify-between relative">
+        <div class="">
           <a class="font-DotGothic16 font-bold"> RAMDHAN NASSYIRAH </a>
         </div>
-        <div class="" v-motion-slide-visible-right>
+        <div class="">
           <a>AAA</a>
         </div>
       </div>
     </nav>
 
     <div
-      class="bg-[#b0d1ceff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] h-[700px] md:rounded-t-[46px] md:rounded-b-[42px] w-full flex items-center px-8"
+      class="bg-[#b0d1ceff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] h-[700px] md:rounded-t-[46px] md:rounded-b-[42px] w-full flex items-center px-8 overflow-hidden"
     >
       <div class="flex flex-col">
-        <h1 class="text-[#38312fff] text-2xl font-DotGothic16">
+        <h1
+          class="text-[#38312fff] text-2xl font-DotGothic16"
+          v-motion-slide-visible-bottom
+        >
           i'm
           <span>
             <a
@@ -25,7 +28,10 @@
             >
           </span>
         </h1>
-        <div class="text-[#38312fff] text-6xl md:text-9xl font-DotGothic16">
+        <div
+          class="text-[#38312fff] text-6xl md:text-9xl font-DotGothic16"
+          v-motion-slide-visible-left
+        >
           <h1>Frontend</h1>
           <h1 class="lg:pl-56">Web</h1>
           <h1 class="lg:pl-40">Developer</h1>

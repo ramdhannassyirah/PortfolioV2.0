@@ -7,7 +7,7 @@
     </h1>
     <div class="mx-auto flex w-full flex-col gap-6 text-4xl px-4 lg:px-0">
       <form action="">
-        <div class="group">
+        <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <input
               type="text"
@@ -33,7 +33,7 @@
             </svg>
           </div>
         </div>
-        <div class="group">
+        <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <input
               type="text"
@@ -59,7 +59,7 @@
             </svg>
           </div>
         </div>
-        <div class="group">
+        <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <input
               type="text"
@@ -85,7 +85,7 @@
             </svg>
           </div>
         </div>
-        <div class="group">
+        <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <textarea
               class="peer min-h-[11rem] w-full resize-none bg-transparent py-5 text-xl font-bold text-zinc-200 outline-none transition-colors duration-200 ease-in-out placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
