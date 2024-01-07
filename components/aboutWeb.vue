@@ -8,7 +8,7 @@
       </div>
       <div class="flex flex-wrap items-center gap-6 lg:flex-nowrap">
         <div class="flex flex-col gap-4 font-Manrope w-[80%]">
-          <p v-motion-fade-visible>
+          <p v-motion-fade-visible :delay="500">
             Greetings! I'm Ramdhan Nassyirah, a versatile Frontend Developer
             with a knack for HTML, CSS, JavaScript, Vuejs and Nuxtjs.
           </p>
@@ -63,7 +63,7 @@
             class="mr-3 mt-3 min-h-fit flex flex-col gap-1 max-w-[400px] rounded-xl bg-[#eda29aff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
-            <h1 class="font-bold">
+            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
               Participate in Bootcamp Online Sekolah Beta Intensif Hacker
               Progressive Web Apps Menggunakan Nuxt JS
             </h1>
@@ -73,7 +73,7 @@
             class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#edce95ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
-            <h1 class="font-bold">
+            <h1 class="font-bold font-Nunito-Sans text-[#38312fff]">
               Project-Based Virtual Intern : Frontend Developer Core Initiative
               x Rakamin Academy
             </h1>
@@ -83,7 +83,7 @@
             class="mr-3 mt-3 min-h-fit flex flex-col gap-1 max-w-[400px] rounded-xl bg-[#edb498ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
-            <h1 class="font-bold">
+            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
               Participate in Program Campus Code by Devhandal
             </h1>
             <time datetime="">Dec, 2023 - Dec, 2024 • 1 Years </time>
@@ -92,7 +92,7 @@
             class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#bfded9ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
-            <h1 class="font-bold">
+            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
               Participate in Frontend Developer Bootcamp at SMKDEV
             </h1>
             <time datetime="">Sep, 2023 - okt,2023</time>

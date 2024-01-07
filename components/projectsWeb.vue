@@ -1,5 +1,8 @@
 <template>
-  <section id="projects" class="container mx-auto mt-24 flex flex-col gap-4">
+  <section
+    id="projects"
+    class="container flex flex-col gap-4 px-4 mx-auto mt-20 md:px-0 lg:px-0"
+  >
     <div class="">
       <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
         Projects
@@ -10,8 +13,8 @@
       <CardProjects />
       <CardProjects />
     </div>
-    <div class="flex flex-col justify-center items-center gap-5 mt-10">
-      <h1 class="text-center font-bold font-DotGothic16 text-4xl">
+    <div class="flex flex-col items-center justify-center gap-5 mt-10">
+      <h1 class="text-4xl font-bold text-center font-DotGothic16">
         See other project
       </h1>
       <a

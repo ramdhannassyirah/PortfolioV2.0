@@ -1,0 +1,21 @@
+<template>
+  <nav class="z-40 w-full py-8 bg-[#e8e3d5ff]">
+    <div class="flex items-center justify-between px-4">
+      <div class="">
+        <h1 class="font-bold font-DotGothic16">
+          <span></span>RAMDHAN NASSYIRAH
+        </h1>
+      </div>
+      <div class="md:pr-10 lg:pr-10">
+        <div class="hidden lg:block">
+          <div class="flex gap-4">
+            <a href="">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</template>

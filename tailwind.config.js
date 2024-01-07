@@ -14,6 +14,7 @@ export default {
         DotGothic16: ["DotGothic16"],
         Pixelify: "Pixelify Sans",
         Manrope: "Manrope",
+        "Nunito-Sans": "Nunito Sans",
       },
     },
   },

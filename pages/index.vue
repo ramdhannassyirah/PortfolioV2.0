@@ -1,8 +1,9 @@
 <template>
-  <div class="md:px-7 bg-[#e8e3d5ff]">
+  <main>
     <heroWeb />
     <aboutWeb />
     <projectsWeb />
     <contactWeb />
-  </div>
+    <buttonBar />
+  </main>
 </template>

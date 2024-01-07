@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       DotGothic16: true,
       "Pixelify Sans": true,
       Manrope: true,
+      "Nunito Sans": true,
     },
   },
   runtimeConfig: {
