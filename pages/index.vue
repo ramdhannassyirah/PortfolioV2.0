@@ -4,6 +4,6 @@
     <aboutWeb />
     <projectsWeb />
     <contactWeb />
-    <buttonBar class="block md:hidden lg:hidden" />
+    <buttonBar />
   </main>
 </template>
