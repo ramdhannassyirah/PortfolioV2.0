@@ -9,19 +9,23 @@
       <div class="flex flex-wrap items-center gap-4 lg:flex-nowrap">
         <div class="flex flex-col gap-4 font-Manrope">
           <p v-motion-fade-visible>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            exercitationem maxime amet at iste, vitae temporibus perspiciatis
-            atque reprehenderit quidem?
+            Greetings! I'm Ramdhan Nassyirah, a versatile Frontend Developer
+            with a knack for HTML, CSS, JavaScript, Vuejs and Nuxtjs.
           </p>
           <p v-motion-fade-visible>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            exercitationem maxime amet at iste, vitae temporibus perspiciatis
-            atque reprehenderit quidem?
+            Even though I left formal education at the University, my commitment
+            to growth is proven through certifications from Codepolitan, the
+            Beta School of the Indonesian 1000 Startup Movement and Dicoding
+            Indonesia.
           </p>
           <p v-motion-fade-visible>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            exercitationem maxime amet at iste, vitae temporibus perspiciatis
-            atque reprehenderit quidem?
+            Embracing a non-traditional path, I left university to focus on
+            hands-on learning and real-world applications, cultivating
+            resilience and adaptability. Beyond the "dropout" label, I bring
+            practical experience, a passion for innovation, and a dedication to
+            crafting seamless digital experiences. Explore my portfolio to
+            witness the tangible outcomes of my journey in the world of web
+            development.
           </p>
         </div>
         <div class="flex flex-col gap-4">
@@ -56,37 +60,41 @@
           class="flex flex-wrap sm:flex-nowrap md:flex-nowrap lg:flex-nowrap"
         >
           <div
-            class="mr-3 mt-3 min-h-fit max-w-[400px] rounded-xl bg-[#eda29aff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
+            class="mr-3 mt-3 min-h-fit flex flex-col gap-1 max-w-[400px] rounded-xl bg-[#eda29aff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
             <h1 class="font-bold">
               Participate in Bootcamp Online Sekolah Beta Intensif Hacker
               Progressive Web Apps Menggunakan Nuxt JS
             </h1>
-            <time datetime="">Sep, 2023 - okt,2023</time>
+            <time datetime="">Sep, 2023 - okt,2023 • 2 Mouth</time>
           </div>
           <div
-            class="mr-3 mt-3 min-h-fit max-w-[400px] rounded-xl bg-[#edce95ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
+            class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#edce95ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
-            <h1>
+            <h1 class="font-bold">
               Project-Based Virtual Intern : Frontend Developer Core Initiative
               x Rakamin Academy
             </h1>
-            <time datetime="">Sep, 2023 - okt,2023</time>
+            <time datetime="">Okt,2023 • 1 Mouth</time>
           </div>
           <div
-            class="mr-3 mt-3 min-h-fit max-w-[400px] rounded-xl bg-[#edb498ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
+            class="mr-3 mt-3 min-h-fit flex flex-col gap-1 max-w-[400px] rounded-xl bg-[#edb498ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
-            <h1>Participate in Program Campus Code by Devhandal</h1>
-            <time datetime="">Sep, 2023 - okt,2023</time>
+            <h1 class="font-bold">
+              Participate in Program Campus Code by Devhandal
+            </h1>
+            <time datetime="">Dec, 2023 - Dec, 2024 • 1 Years </time>
           </div>
           <div
-            class="mr-3 mt-3 min-h-fit max-w-[400px] rounded-xl bg-[#bfded9ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
+            class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#bfded9ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
             v-motion-slide-visible-right
           >
-            <h1>Participate in Frontend Developer Bootcamp at SMKDEV</h1>
+            <h1 class="font-bold">
+              Participate in Frontend Developer Bootcamp at SMKDEV
+            </h1>
             <time datetime="">Sep, 2023 - okt,2023</time>
           </div>
         </div>
