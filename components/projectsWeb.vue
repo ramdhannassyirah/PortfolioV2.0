@@ -9,9 +9,9 @@
       </h1>
     </div>
     <div class="flex flex-col gap-4">
-      <CardProjects />
-      <CardProjects />
-      <CardProjects />
+      <CardProjects v-motion-slide-visible-right :delay="300" />
+      <CardProjects v-motion-slide-visible-left />
+      <CardProjects v-motion-slide-visible-right />
     </div>
     <div class="flex flex-col items-center justify-center gap-5 mt-10">
       <h1 class="text-4xl font-bold text-center font-DotGothic16">

@@ -1,18 +1,18 @@
 <template>
   <nav class="z-40 w-full py-8 bg-[#e8e3d5ff]">
     <div class="flex items-center justify-between px-4">
-      <div class="">
+      <div>
         <h1 class="font-bold font-DotGothic16">
           <span></span>RAMDHAN NASSYIRAH
         </h1>
       </div>
       <div class="md:pr-10 lg:pr-10">
         <div class="hidden lg:block">
-          <div class="flex gap-4">
+          <div class="flex gap-4 font-bold text-[#38312fff]">
             <a href="">Home</a>
             <a href="#about">About Me</a>
             <a href="#projects">Projects</a>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </div>
