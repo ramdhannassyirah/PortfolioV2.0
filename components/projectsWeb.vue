@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="container flex flex-col gap-4 px-4 mx-auto mt-20 md:px-0 lg:px-0"
+    class="container flex flex-col gap-4 px-4 mx-auto mt-20 overflow-hidden md:px-0 lg:px-0"
   >
     <div class="">
       <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
@@ -18,7 +18,7 @@
         See other project
       </h1>
       <a
-        href=""
+        href="/projectWeb"
         class="px-5 py-2 bg-[#b0d1ceff] text-[#38312fff] font-bold rounded-lg"
         >Load More</a
       >
