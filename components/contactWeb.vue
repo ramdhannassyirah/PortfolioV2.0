@@ -6,13 +6,14 @@
       Contact
     </h1>
     <div class="flex flex-col w-full gap-6 px-4 mx-auto text-4xl lg:px-0">
-      <form action="">
+      <form>
         <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <input
+              required
               type="text"
               placeholder="Your Name"
-              class="w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
+              class="name w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
             />
             <svg
               viewBox="0 0 300 100"
@@ -36,9 +37,10 @@
         <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <input
+              required
               type="text"
               placeholder="Your Email"
-              class="w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
+              class="email w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
             />
             <svg
               viewBox="0 0 300 100"
@@ -62,9 +64,10 @@
         <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <input
+              required
               type="text"
               placeholder="Your Subject"
-              class="w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
+              class="subject w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
             />
             <svg
               viewBox="0 0 300 100"
@@ -88,9 +91,9 @@
         <div class="group" v-motion-fade-visible>
           <div class="relative overflow-hidden">
             <textarea
-              class="peer min-h-[11rem] w-full resize-none bg-transparent py-5 text-xl font-bold text-zinc-200 outline-none transition-colors duration-200 ease-in-out placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
+              required
+              class="message peer min-h-[11rem] w-full resize-none bg-transparent py-5 text-xl font-bold text-zinc-200 outline-none transition-colors duration-200 ease-in-out placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
               placeholder="Your Message"
-              name="message"
             ></textarea>
             <svg
               viewBox="0 0 300 100"
@@ -112,8 +115,9 @@
           </div>
         </div>
         <button
+          @click="sendWhatsapp"
+          type="button"
           class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors border border-input bg-background hover:bg-black hover:text-[#e8e3d5ff] h-11 rounded-md px-8 mt-6 bg-[#38312fff] text-[#e8e3d5ff]"
-          aria-disabled="false"
         >
           <div style="transform: none">
             <div class="inline-flex items-center gap-x-2">
@@ -251,3 +255,36 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  methods: {
+    sendWhatsapp: function () {
+      var phonenumber = "+6285156330411";
+
+      var name = document.querySelector(".name").value;
+      var email = document.querySelector(".email").value;
+      var subject = document.querySelector(".subject").value;
+      var message = document.querySelector(".message").value;
+
+      var url =
+        "https://wa.me/" +
+        phonenumber +
+        "?text=" +
+        "Nama : " +
+        name +
+        "%0a" +
+        "Email : " +
+        email +
+        "%0a" +
+        "Subject : " +
+        subject +
+        "%0a" +
+        "Message : " +
+        message +
+        "%0a%0a";
+
+      window.open(url, "_blank").focus();
+    },
+  },
+};
+</script>
