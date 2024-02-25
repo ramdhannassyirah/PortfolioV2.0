@@ -93,9 +93,10 @@
             v-motion-slide-visible-right
           >
             <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
-              Participate in Frontend Developer Bootcamp at SMKDEV
+              Meta Front-End Developer || Coursera & Indonesia Cyber Education
+              Institute
             </h1>
-            <time datetime="">Sep, 2023 - okt,2023</time>
+            <time datetime="">2024 - 2025 • 1 Year</time>
           </div>
         </div>
       </div>

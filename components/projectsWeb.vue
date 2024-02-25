@@ -17,10 +17,10 @@
       <h1 class="text-4xl font-bold text-center font-DotGothic16">
         See other project
       </h1>
-      <a
-        href="/projectWeb"
+      <NuxtLink
+        to="/projectWeb"
         class="px-5 py-2 bg-[#b0d1ceff] text-[#38312fff] font-bold rounded-lg"
-        >Load More</a
+        >Load More</NuxtLink
       >
     </div>
   </section>

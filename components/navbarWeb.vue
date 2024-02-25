@@ -9,10 +9,10 @@
       <div class="md:pr-10 lg:pr-10">
         <div class="hidden lg:block">
           <div class="flex gap-4 font-bold text-[#38312fff]">
-            <a href="">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <NuxtLink to="">Home</NuxtLink>
+            <NuxtLink to="/#about">About Me</NuxtLink>
+            <NuxtLink to="/#projects">Projects</NuxtLink>
+            <NuxtLink to="/#contact">Contact</NuxtLink>
           </div>
         </div>
       </div>
