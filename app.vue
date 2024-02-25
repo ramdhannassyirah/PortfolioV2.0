@@ -7,9 +7,9 @@
 
 <script setup>
 useSeoMeta({
-  title: "ramdhannassyirah",
-  ogTitle: "ramdhannassyirah",
-  description: "This is ramdhannassyirah, Portfolio",
-  ogDescription: "This is ramdhannassyirah, Portfolio",
+  title: "ramdhan nassyirah",
+  ogTitle: "ramdhan nassyirah",
+  description: "This is ramdhan nassyirah, Portfolio",
+  ogDescription: "This is ramdhan nassyirah, Portfolio",
 });
 </script>
