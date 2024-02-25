@@ -13,7 +13,7 @@
               required
               type="text"
               placeholder="Your Name"
-              class="name w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
+              class="w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none name peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
             />
             <svg
               viewBox="0 0 300 100"
@@ -21,12 +21,6 @@
               stroke-linejoin="round"
               class="input-line-3 pointer-events-none absolute bottom-0 right-0 h-[90px] w-[300%] fill-none stroke-[1.75] transition-colors duration-300 will-change-transform stroke-zinc-200 dark:stroke-zinc-800 peer-focus:!stroke-zinc-200/50 dark:peer-focus:!stroke-zinc-800/50"
               preserveAspectRatio="none"
-              style="
-                translate: none;
-                rotate: none;
-                scale: none;
-                transform: translate(66%, 0px);
-              "
             >
               <path
                 d="M0 90H100C110 90 120 84 130 78C140 72 160 72 170 78C180 84 190 90 200 90H300"
@@ -40,7 +34,7 @@
               required
               type="text"
               placeholder="Your Email"
-              class="email w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
+              class="w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none email peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
             />
             <svg
               viewBox="0 0 300 100"
@@ -48,12 +42,6 @@
               stroke-linejoin="round"
               class="input-line-3 pointer-events-none absolute bottom-0 right-0 h-[90px] w-[300%] fill-none stroke-[1.75] transition-colors duration-300 will-change-transform stroke-zinc-200 dark:stroke-zinc-800 peer-focus:!stroke-zinc-200/50 dark:peer-focus:!stroke-zinc-800/50"
               preserveAspectRatio="none"
-              style="
-                translate: none;
-                rotate: none;
-                scale: none;
-                transform: translate(66%, 0px);
-              "
             >
               <path
                 d="M0 90H100C110 90 120 84 130 78C140 72 160 72 170 78C180 84 190 90 200 90H300"
@@ -67,7 +55,7 @@
               required
               type="text"
               placeholder="Your Subject"
-              class="subject w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
+              class="w-full py-5 text-xl font-bold transition-colors duration-200 ease-in-out bg-transparent outline-none subject peer text-zinc-200 placeholder:text-zinc-200/50 dark:text-zinc-800 dark:placeholder:text-zinc-800/50"
             />
             <svg
               viewBox="0 0 300 100"
