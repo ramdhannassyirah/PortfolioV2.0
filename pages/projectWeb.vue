@@ -5,7 +5,11 @@
       :title="projects[0].title"
       :link="projects[0].link"
     />
-    <CardProjects />
+    <CardProjects
+      :Img="projects[1].img"
+      :title="projects[1].title"
+      :link="projects[1].link"
+    />
     <CardProjects />
     <CardProjects />
     <NuxtLink class="text-2xl font-bold" to="/">- Back -</NuxtLink>
@@ -13,6 +17,7 @@
 </template>
 <script>
 import imgBook from "../assets/img/bookself-apps.png";
+import imgToDo from "../assets/img/ToDoList.png";
 export default {
   data() {
     return {
@@ -21,6 +26,11 @@ export default {
           title: "Bookself Apps",
           link: "https://ramdhannassyirah.github.io/BookselfAppsSubmisson/",
           img: imgBook,
+        },
+        {
+          title: "ToDoList",
+          link: "https://ramdhannassyirah.github.io/ToDoListSubmission/",
+          img: imgToDo,
         },
       ],
     };
