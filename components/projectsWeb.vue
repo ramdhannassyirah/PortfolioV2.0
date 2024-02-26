@@ -17,9 +17,9 @@
         :delay="300"
       />
       <CardProjects
-        :Img="projects[0].img"
-        :title="projects[0].title"
-        :link="projects[0].link"
+        :Img="projects[1].img"
+        :title="projects[1].title"
+        :link="projects[1].link"
         v-motion-slide-visible-left
       />
       <CardProjects
@@ -43,6 +43,7 @@
 </template>
 <script>
 import imgBook from "../assets/img/bookself-apps.png";
+import imgToDo from "../assets/img/ToDoList.png";
 export default {
   data() {
     return {
@@ -51,6 +52,11 @@ export default {
           title: "Bookself Apps",
           link: "https://ramdhannassyirah.github.io/BookselfAppsSubmisson/",
           img: imgBook,
+        },
+        {
+          title: "ToDoList",
+          link: "https://ramdhannassyirah.github.io/ToDoListSubmission/",
+          img: imgToDo,
         },
       ],
     };
