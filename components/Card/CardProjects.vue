@@ -13,7 +13,7 @@
         decoding="async"
         data-nimg="1"
         class="absolute -bottom-2 right-0 w-[85%] object-contain md:w-[60%] lg:max-w-[55%]"
-        src="/assets/img/company-2.jpg"
+        :src="Img"
         style="color: transparent"
       />
     </div>
@@ -47,7 +47,7 @@
         target="_blank"
         class="p-2 transition-all duration-300 ease-in-out rounded-full bg-foreground hover:bg-foreground/50"
         aria-label="Open Live Demo"
-        href="https://li-tech-profile.vercel.app/"
+        :href="link"
         ><svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -74,9 +74,9 @@
       <h3
         class="max-w-[90%] text-5xl font-bold leading-none text-foreground md:text-4xl md:leading-none lg:max-w-[450px] lg:text-5xl lg:leading-none"
       >
-        <span aria-hidden="true" style="opacity: 1; transform: none"
-          >Company Profile</span
-        >
+        <span aria-hidden="true" style="opacity: 1; transform: none">{{
+          title
+        }}</span>
       </h3>
       <p
         class="mt-4 w-[90%] max-w-[454px] text-xs font-semibold text-foreground/50"
@@ -100,8 +100,26 @@
         <p class="text-xs font-semibold text-foreground/50 md:text-sm">
           Tailwind CSS
         </p>
-        <p class="text-xs font-semibold text-foreground/50 md:text-sm"></p>
+        <!-- Add additional technologies here if needed -->
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    Img: {
+      type: String,
+      default: null,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
+    link: {
+      type: String,
+    },
+  },
+};
+</script>

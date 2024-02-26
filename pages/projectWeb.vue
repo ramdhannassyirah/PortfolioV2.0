@@ -1,6 +1,29 @@
 <template>
   <div class="flex flex-col items-center justify-center min-h-screen gap-3">
-    <h1 class="text-5xl font-bold">SOON</h1>
+    <CardProjects
+      :Img="projects[0].img"
+      :title="projects[0].title"
+      :link="projects[0].link"
+    />
+    <CardProjects />
+    <CardProjects />
+    <CardProjects />
     <NuxtLink class="text-2xl font-bold" to="/">- Back -</NuxtLink>
   </div>
 </template>
+<script>
+import imgBook from "../assets/img/bookself-apps.png";
+export default {
+  data() {
+    return {
+      projects: [
+        {
+          title: "Bookself Apps",
+          link: "https://ramdhannassyirah.github.io/BookselfAppsSubmisson/",
+          img: imgBook,
+        },
+      ],
+    };
+  },
+};
+</script>
