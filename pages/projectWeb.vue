@@ -14,6 +14,8 @@
     <CardProjects />
     <NuxtLink class="text-2xl font-bold" to="/">- Back -</NuxtLink>
   </div>
+
+  <buttonBar />
 </template>
 <script>
 import imgBook from "../assets/img/bookself-apps.png";
