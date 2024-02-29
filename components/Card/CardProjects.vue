@@ -82,10 +82,10 @@
         class="mt-4 w-[90%] max-w-[454px] text-xs font-semibold text-foreground/50"
       >
         <span aria-hidden="true" style="opacity: 1; transform: none"
-          >A web application designed to swiftly and effortlessly summarize
-          articles while providing instant translations in Bahasa Indonesia.
-          This open-source and free platform is powered by cutting-edge OpenAI
-          GPT-4 technology.</span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          adipisci porro nobis, ut amet eligendi omnis aliquam iure illum
+          accusantium! Alias dolor dolore sint ratione distinctio. Odio labore
+          ipsam molestiae!</span
         >
       </p>
       <div
@@ -93,12 +93,10 @@
         class="flex gap-4 mt-9"
         style="opacity: 1; transform: none"
       >
+        <p class="text-xs font-semibold text-foreground/50 md:text-sm">HTML</p>
+        <p class="text-xs font-semibold text-foreground/50 md:text-sm">CSS</p>
         <p class="text-xs font-semibold text-foreground/50 md:text-sm">
-          Vue JS
-        </p>
-        <p class="text-xs font-semibold text-foreground/50 md:text-sm">Vite</p>
-        <p class="text-xs font-semibold text-foreground/50 md:text-sm">
-          Tailwind CSS
+          JavaScript
         </p>
         <!-- Add additional technologies here if needed -->
       </div>
