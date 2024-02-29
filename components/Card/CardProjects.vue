@@ -45,29 +45,13 @@
           <path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a
       ><a
         target="_blank"
-        class="p-2 transition-all duration-300 ease-in-out rounded-full bg-foreground hover:bg-foreground/50"
+        class="p-2 text-[#e8e3d5ff] font-bold text-xl"
         aria-label="Open Live Demo"
         :href="link"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="w-6 h-6 text-[#e8e3d5ff] md:h-8 md:w-8 lg:h-10 lg:w-10"
-        >
-          <path
-            d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
-          ></path>
-          <path
-            d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
-          ></path></svg
-      ></a>
+        >Live Demo</a
+      >
     </div>
+
     <div
       class="absolute mb-10 ml-0 left-10 top-32 text-foreground lg:top-52 lg:mb-14 lg:ml-4 text-[#e8e3d5ff]"
     >
