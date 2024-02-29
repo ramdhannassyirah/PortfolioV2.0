@@ -22,6 +22,12 @@
         :link="projects[1].link"
         v-motion-slide-visible-left
       />
+      <CardProjects
+        :Img="projects[2].img"
+        :title="projects[2].title"
+        :link="projects[2].link"
+        v-motion-slide-visible-left
+      />
     </div>
     <div class="flex flex-col items-center justify-center gap-5 my-10">
       <h1 class="text-4xl font-bold text-center font-DotGothic16">
@@ -69,6 +75,7 @@
 <script>
 import imgBook from "../assets/img/bookself-apps.png";
 import imgToDo from "../assets/img/ToDoList.png";
+import imgConsumeApi from "../assets/img/consume-api.png";
 export default {
   data() {
     return {
@@ -82,6 +89,11 @@ export default {
           title: "ToDoList",
           link: "https://ramdhannassyirah.github.io/ToDoListSubmission/",
           img: imgToDo,
+        },
+        {
+          title: "Consume API",
+          link: "https://consume-api-nu.vercel.app/",
+          img: imgConsumeApi,
         },
       ],
     };
