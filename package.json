@@ -17,6 +17,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.10",
     "@vueuse/motion": "^2.0.0"
   }
 }
