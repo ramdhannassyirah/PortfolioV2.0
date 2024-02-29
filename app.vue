@@ -8,10 +8,20 @@
 
 <script setup lang="ts">
 import {SpeedInsights} from "@vercel/speed-insights/vue";
-useSeoMeta({
+useHead({
   title: "Ramdhan Nassyirah",
-  ogTitle: "Ramdhan Nassyirah",
-  description: "Ramdhan Nassyirah, Portfolio",
-  ogDescription: "Ramdhan Nassyirah, Portfolio",
+  meta: [
+    {
+      name: "description",
+      content: "This My Portfolio Ramdhan Nassyirah",
+    },
+    {property: "og:title", content: "Ramdhan Nassyirah"},
+    {
+      property: "og:description",
+      content: "This My Portfolio Ramdhan Nassyirah",
+    },
+    {property: "og:type", content: "website"},
+    {property: "og:url", content: "https://ramdhannassyirah.my.id/"},
+  ],
 });
 </script>
