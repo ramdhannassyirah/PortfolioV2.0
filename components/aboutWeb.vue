@@ -21,11 +21,10 @@
           <p v-motion-fade-visible>
             Embracing a non-traditional path, I left university to focus on
             hands-on learning and real-world applications, cultivating
-            resilience and adaptability. Beyond the "dropout" label, I bring
-            practical experience, a passion for innovation, and a dedication to
-            crafting seamless digital experiences. Explore my portfolio to
-            witness the tangible outcomes of my journey in the world of web
-            development.
+            resilience and adaptability.I bring practical experience, a passion
+            for innovation, and a dedication to crafting seamless digital
+            experiences. Explore my portfolio to witness the tangible outcomes
+            of my journey in the world of web development.
           </p>
         </div>
         <div class="flex flex-col gap-4">
