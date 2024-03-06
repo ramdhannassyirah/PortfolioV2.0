@@ -1,3 +1,4 @@
+import { NuxtLink } from '#build/components';
 <template>
   <section id="hero " class="container mx-auto">
     <div
@@ -11,10 +12,10 @@
         >
           i'm
           <span>
-            <a
-              href="/about"
-              class="text-xl text-[#38312fff] bg-[#e8e3d5ff] px-3 font-bold"
-              >About Me -></a
+            <NuxtLink
+              to="/#about"
+              class="text-xl text-[#38312fff] bg-[#e8e3d5ff] px-3 font-bold cursor-pointer"
+              >About Me -></NuxtLink
             >
           </span>
         </h1>
