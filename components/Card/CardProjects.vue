@@ -12,7 +12,7 @@
         height="600"
         decoding="async"
         data-nimg="1"
-        class="absolute -bottom-2 right-0 w-[85%] object-contain md:w-[60%] lg:max-w-[55%]"
+        class="absolute rounded-l-xl -bottom-2 right-0 w-[85%] object-contain md:w-[60%] lg:max-w-[55%]"
         :src="Img"
         style="color: transparent"
       />

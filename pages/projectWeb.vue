@@ -16,8 +16,14 @@
       :link="projects[2].link"
       v-motion-slide-visible-left
     />
+    <CardProjects
+      :Img="projects[3].img"
+      :title="projects[3].title"
+      :link="projects[3].link"
+      v-motion-slide-visible-left
+    />
 
-    <NuxtLink class="button-54 text-2xl font-bold my-10 rounded-lg" to="/"
+    <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/"
       >- Back -</NuxtLink
     >
   </div>
@@ -59,6 +65,7 @@
 import imgBook from "../assets/img/bookself-apps.png";
 import imgToDo from "../assets/img/ToDoList.png";
 import imgConsumeApi from "../assets/img/consume-api.png";
+import imgShoppingCart from "../assets/img/shoppingCart.png";
 export default {
   data() {
     return {
@@ -72,6 +79,11 @@ export default {
           title: "ToDoList",
           link: "https://ramdhannassyirah.github.io/ToDoListSubmission/",
           img: imgToDo,
+        },
+        {
+          title: "Shopping Cart",
+          link: "https://shopping-cart-vue-gamma.vercel.app/",
+          img: imgShoppingCart,
         },
         {
           title: "Consume API",
