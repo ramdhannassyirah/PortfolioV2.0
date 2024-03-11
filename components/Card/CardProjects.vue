@@ -74,14 +74,17 @@
       </p>
       <div
         aria-hidden="true"
-        class="flex gap-4 mt-9"
+        class="tech flex gap-4 mt-9"
         style="opacity: 1; transform: none"
       >
-        <p class="text-xs font-semibold text-foreground/50 md:text-sm">HTML</p>
-        <p class="text-xs font-semibold text-foreground/50 md:text-sm">CSS</p>
-        <p class="text-xs font-semibold text-foreground/50 md:text-sm">
-          JavaScript
+        <p
+          class="text-xs font-semibold text-foreground/50 md:text-sm"
+          v-for="item in tech"
+          :key="item"
+        >
+          {{ item }}
         </p>
+
         <!-- Add additional technologies here if needed -->
       </div>
     </div>
@@ -101,6 +104,9 @@ export default {
     },
     link: {
       type: String,
+    },
+    tech: {
+      type: Array,
     },
   },
 };

@@ -8,6 +8,7 @@
       :link="project.link"
       v-motion-slide-visible-right
       :delay="300"
+      :tech="project.tech"
     />
     <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/"
       >- Back -</NuxtLink

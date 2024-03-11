@@ -18,6 +18,7 @@
         :Img="project.img"
         :title="project.title"
         :link="project.link"
+        :tech="project.tech"
       />
     </div>
     <div class="flex flex-col items-center justify-center gap-5 my-10">
