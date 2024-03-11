@@ -10,29 +10,14 @@
     </div>
     <div class="flex flex-col gap-4">
       <CardProjects
-        :Img="projects[0].img"
-        :title="projects[0].title"
-        :link="projects[0].link"
+        v-for="project in projects"
+        :key="project.id"
+        :project="project"
         v-motion-slide-visible-right
         :delay="300"
-      />
-      <CardProjects
-        :Img="projects[1].img"
-        :title="projects[1].title"
-        :link="projects[1].link"
-        v-motion-slide-visible-left
-      />
-      <CardProjects
-        :Img="projects[2].img"
-        :title="projects[2].title"
-        :link="projects[2].link"
-        v-motion-slide-visible-left
-      />
-      <CardProjects
-        :Img="projects[3].img"
-        :title="projects[3].title"
-        :link="projects[3].link"
-        v-motion-slide-visible-left
+        :Img="project.img"
+        :title="project.title"
+        :link="project.link"
       />
     </div>
     <div class="flex flex-col items-center justify-center gap-5 my-10">
@@ -79,35 +64,11 @@
 }
 </style>
 <script>
-import imgBook from "../assets/img/bookself-apps.png";
-import imgToDo from "../assets/img/ToDoList.png";
-import imgConsumeApi from "../assets/img/consume-api.png";
-import imgShoppingCart from "../assets/img/shoppingCart.png";
+import Project from "~/data-project";
 export default {
   data() {
     return {
-      projects: [
-        {
-          title: "Bookself Apps",
-          link: "https://ramdhannassyirah.github.io/BookselfAppsSubmisson/",
-          img: imgBook,
-        },
-        {
-          title: "ToDoList",
-          link: "https://ramdhannassyirah.github.io/ToDoListSubmission/",
-          img: imgToDo,
-        },
-        {
-          title: "Shopping Cart",
-          link: "https://shopping-cart-vue-gamma.vercel.app/",
-          img: imgShoppingCart,
-        },
-        {
-          title: "Consume API",
-          link: "https://consume-api-nu.vercel.app/",
-          img: imgConsumeApi,
-        },
-      ],
+      projects: Project,
     };
   },
 };
