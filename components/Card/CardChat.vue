@@ -7,7 +7,7 @@
         </div>
         <div class="flex flex-col">
           <div class="flex items-center gap-4">
-            <p>{{ name }}</p>
+            <p class="font-bold font-Manrope">Anonim</p>
             <span class="text-xs">{{ tanggal }}</span>
           </div>
         </div>
