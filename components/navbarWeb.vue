@@ -13,6 +13,7 @@
             <NuxtLink to="/#about">About Me</NuxtLink>
             <NuxtLink to="/#projects">Projects</NuxtLink>
             <NuxtLink to="/#contact">Contact</NuxtLink>
+            <NuxtLink to="/chatRoom">Chat Room</NuxtLink>
           </div>
         </div>
       </div>
