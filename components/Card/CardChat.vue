@@ -3,7 +3,7 @@
     <div class="flex flex-col items-start w-full">
       <div class="flex items-center gap-2">
         <div class="overflow-hidden rounded-full">
-          <img src="https://picsum.photos/40" alt="" />
+          <!-- <img src="https://picsum.photos/40" alt="" /> -->
         </div>
         <div class="flex flex-col">
           <div class="flex items-center gap-4">
