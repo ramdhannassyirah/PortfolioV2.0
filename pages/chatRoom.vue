@@ -72,6 +72,11 @@ export default {
             };
             this.chatData.push(data);
 
+            // Mengurutkan chatData berdasarkan tanggal setelah menambahkan pesan baru
+            this.chatData.sort(
+              (a, b) => new Date(a.tanggal) - new Date(b.tanggal)
+            );
+
             this.$nextTick(this.scrollChatContainer);
           }
         });
@@ -97,6 +102,7 @@ export default {
         pesan: input,
         tanggal: tanggal,
       });
+
       this.$refs.messageInput.value = ""; // Kosongkan textarea setelah pesan terkirim
     },
     scrollChatContainer() {
