@@ -1,21 +1,22 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen gap-3">
-    <CardProjects
-      v-for="project in projects"
-      :key="project.id"
-      :Img="project.img"
-      :title="project.title"
-      :link="project.link"
-      v-motion-slide-visible-right
-      :delay="300"
-      :tech="project.tech"
-    />
-    <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/"
-      >- Back -</NuxtLink
-    >
-  </div>
-
-  <buttonBar />
+  <section>
+    <div class="flex flex-col items-center justify-center min-h-screen gap-3">
+      <CardProjects
+        v-for="project in projects"
+        :key="project.id"
+        :Img="project.img"
+        :title="project.title"
+        :link="project.link"
+        v-motion-slide-visible-right
+        :delay="300"
+        :tech="project.tech"
+      />
+      <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/"
+        >- Back -</NuxtLink
+      >
+    </div>
+    <buttonBar />
+  </section>
 </template>
 <style scoped>
 .button-54 {

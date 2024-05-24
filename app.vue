@@ -1,5 +1,5 @@
 <template>
-  <div class="md:px-7 bg-[#e8e3d5ff]">
+  <div class="md:px-7 overflow-hidden bg-[#e8e3d5ff]">
     <navbarWeb />
     <NuxtPage />
     <SpeedInsights />
