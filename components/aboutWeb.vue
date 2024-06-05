@@ -9,22 +9,22 @@
       <div class="flex flex-wrap items-center gap-6 lg:flex-nowrap">
         <div class="flex flex-col gap-4 font-Manrope w-[80%]">
           <p v-motion-fade-visible :delay="500">
-            Greetings! I'm Ramdhan Nassyirah, a versatile Frontend Developer
-            with a knack for HTML, CSS, JavaScript, Vuejs and Nuxtjs.
+            Salam! Saya Ramdhan Nassyirah, Pengembang Frontend serba bisa dengan
+            kemampuan untuk HTML, CSS, JavaScript, Vuejs dan Nuxtjs.
           </p>
           <p v-motion-fade-visible>
-            Even though I left formal education at the University, my commitment
-            to growth is proven through certifications from Codepolitan, the
-            Beta School of the Indonesian 1000 Startup Movement and Dicoding
-            Indonesia.
+            Walaupun saya meninggalkan pendidikan formal di Universitas,
+            komitmen saya pertumbuhan dibuktikan melalui sertifikasi dari
+            Codepolitan, the Sekolah Beta Gerakan 1000 Startup Indonesia dan
+            Dicoding Indonesia.
           </p>
           <p v-motion-fade-visible>
-            Embracing a non-traditional path, I left university to focus on
-            hands-on learning and real-world applications, cultivating
-            resilience and adaptability.I bring practical experience, a passion
-            for innovation, and a dedication to crafting seamless digital
-            experiences. Explore my portfolio to witness the tangible outcomes
-            of my journey in the world of web development.
+            Dengan menempuh jalur non-tradisional, saya meninggalkan universitas
+            untuk fokus pembelajaran langsung dan aplikasi dunia nyata, budidaya
+            ketahanan dan kemampuan beradaptasi.Saya membawa pengalaman praktis,
+            semangat untuk inovasi, dan dedikasi untuk menciptakan digital tanpa
+            batas pengalaman. Jelajahi portofolio saya untuk menyaksikan hasil
+            nyata perjalanan saya di dunia pengembangan web.
           </p>
         </div>
         <div class="flex flex-col gap-4">
@@ -76,7 +76,7 @@
               Project-Based Virtual Intern : Frontend Developer Core Initiative
               x Rakamin Academy
             </h1>
-            <time datetime="">Okt,2023 • 1 Mouth</time>
+            <time datetime="">Okt,2023 </time>
           </div>
           <div
             class="mr-3 mt-3 min-h-fit flex flex-col gap-1 max-w-[400px] rounded-xl bg-[#edb498ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
@@ -85,7 +85,7 @@
             <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
               Participate in Program Campus Code by Devhandal
             </h1>
-            <time datetime="">Dec, 2023 - Dec, 2024 • 1 Years </time>
+            <time datetime="">2023 - 2024 </time>
           </div>
           <div
             class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#bfded9ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
@@ -95,7 +95,16 @@
               Meta Front-End Developer || Coursera & Indonesia Cyber Education
               Institute
             </h1>
-            <time datetime="">2024 - 2025 • 1 Year</time>
+            <time datetime="">2024 - 2025</time>
+          </div>
+          <div
+            class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#bfded9ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
+            v-motion-slide-visible-right
+          >
+            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
+              Jabar Digital Academy || Alkademi Digital
+            </h1>
+            <time datetime="">April - June 2024</time>
           </div>
         </div>
       </div>

@@ -65,16 +65,13 @@
       <p
         class="mt-4 w-[90%] max-w-[454px] text-xs font-semibold text-foreground/50"
       >
-        <span aria-hidden="true" style="opacity: 1; transform: none"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-          adipisci porro nobis, ut amet eligendi omnis aliquam iure illum
-          accusantium! Alias dolor dolore sint ratione distinctio. Odio labore
-          ipsam molestiae!</span
-        >
+        <span aria-hidden="true" style="opacity: 1; transform: none">{{
+          desc
+        }}</span>
       </p>
       <div
         aria-hidden="true"
-        class="tech flex gap-4 mt-9"
+        class="flex gap-4 tech mt-9"
         style="opacity: 1; transform: none"
       >
         <p
@@ -107,6 +104,9 @@ export default {
     },
     tech: {
       type: Array,
+    },
+    desc: {
+      type: String,
     },
   },
 };

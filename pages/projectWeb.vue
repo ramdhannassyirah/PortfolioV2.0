@@ -7,6 +7,7 @@
         :Img="project.img"
         :title="project.title"
         :link="project.link"
+        :desc="project.desc"
         v-motion-slide-visible-right
         :delay="300"
         :tech="project.tech"

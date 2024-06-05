@@ -16,6 +16,7 @@
         v-motion-slide-visible-right
         :delay="300"
         :Img="project.img"
+        :desc="project.desc"
         :title="project.title"
         :link="project.link"
         :tech="project.tech"
