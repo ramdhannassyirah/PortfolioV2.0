@@ -1,7 +1,7 @@
 import imgBook from "./assets/img/bookself-apps.png";
 import imgToDo from "./assets/img/ToDoList.png";
 import imgConsumeApi from "./assets/img/consume-api.png";
-import ImgKasirinAja from "./assets/img/kasirinaja.png";
+import ImgKasirinAja from "./assets/img/kasirinAja.png";
 
 const Project = [
   {
