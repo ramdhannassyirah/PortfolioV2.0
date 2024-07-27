@@ -56,7 +56,7 @@
           Experience
         </h1>
         <div class="overflow-x-auto scroll-smooth pb-3 scrollbar-hide w-full">
-          <div class="inline-flex animate-marquee whitespace-nowrap gap-4">
+          <div class="inline-flex animate-marquee  gap-4">
             <CardExperience :name="'Participate in Program Campus Code by Devhandal'" :time="'Jan, 2023 - okt, 2023'" />
             <CardExperience
               :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
