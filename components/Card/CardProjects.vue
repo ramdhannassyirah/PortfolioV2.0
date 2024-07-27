@@ -1,10 +1,10 @@
 <template>
-  <div class="Card grid grid-cols-1 rounded-xl md:grid-cols-2 p-6 gap-10 items-center  bg-[#38312fff]">
+  <div class="Card grid grid-cols-1 rounded-2xl md:grid-cols-2 p-6 gap-8 items-center  bg-[#38312fff]">
     <div class="max-h-[500px]">
-      <img :src="Img" class="rounded-md object-contain " alt="">
+      <img :src="Img" class="rounded-xl object-contain " alt="">
     </div>
     <div class="flex flex-col justify-center items-center lg:gap-10 text-[#e8e3d5ff] gap-6">
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-6">
         <a target="_blank"
           class="w-10transition-all duration-300 ease-in-out rounded-full bg-foreground hover:bg-foreground/50"
           aria-label="Open Github Repo" href="https://github.com/ramdhannassyirah"><svg
@@ -20,7 +20,7 @@
       </div>
       <div class="flex flex-col gap-2 ">
         <h1 class="text-2xl  font-bold text-foreground">{{ title }}</h1>
-        <p class="md:text-md font-semibold text-balance ">{{ desc }}</p>
+        <p class="md:text-md text-sm font-semibold text-balance ">{{ desc }}</p>
       </div>
     </div>
   </div>
