@@ -1,13 +1,12 @@
 <template>
-  <div class="md:px-7 overflow-hidden bg-[#e8e3d5ff]">
-    <navbarWeb />
+  <NuxtLayout>
     <NuxtPage />
     <SpeedInsights />
-  </div>
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
-import {SpeedInsights} from "@vercel/speed-insights/vue";
+import { SpeedInsights } from "@vercel/speed-insights/vue";
 useHead({
   title: "Ramdhan Nassyirah",
   meta: [
@@ -15,13 +14,13 @@ useHead({
       name: "description",
       content: "This My Portfolio Ramdhan Nassyirah",
     },
-    {property: "og:title", content: "Ramdhan Nassyirah"},
+    { property: "og:title", content: "Ramdhan Nassyirah" },
     {
       property: "og:description",
       content: "This My Portfolio Ramdhan Nassyirah",
     },
-    {property: "og:type", content: "website"},
-    {property: "og:url", content: "https://ramdhannassyirah.my.id/"},
+    { property: "og:type", content: "website" },
+    { property: "og:url", content: "https://ramdhannassyirah.my.id/" },
   ],
 });
 </script>

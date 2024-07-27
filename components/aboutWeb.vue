@@ -51,63 +51,33 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col gap-4 pb-10 overflow-hidden experience">
+      <div class="flex flex-col gap-4 overflow-hidden experience">
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           Experience
         </h1>
-        <div
-          class="flex flex-wrap sm:flex-nowrap md:flex-nowrap lg:flex-nowrap"
-        >
-          <div
-            class="mr-3 mt-3 min-h-fit flex flex-col gap-1 max-w-[400px] rounded-xl bg-[#eda29aff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
-            v-motion-slide-visible-right
-          >
-            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
-              Participate in Bootcamp Online Sekolah Beta Intensif Hacker
-              Progressive Web Apps Menggunakan Nuxt JS
-            </h1>
-            <time datetime="">Sep, 2023 - okt,2023 • 2 Mouth</time>
-          </div>
-          <div
-            class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#edce95ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
-            v-motion-slide-visible-right
-          >
-            <h1 class="font-bold font-Nunito-Sans text-[#38312fff]">
-              Project-Based Virtual Intern : Frontend Developer Core Initiative
-              x Rakamin Academy
-            </h1>
-            <time datetime="">Okt,2023 </time>
-          </div>
-          <div
-            class="mr-3 mt-3 min-h-fit flex flex-col gap-1 max-w-[400px] rounded-xl bg-[#edb498ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
-            v-motion-slide-visible-right
-          >
-            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
-              Participate in Program Campus Code by Devhandal
-            </h1>
-            <time datetime="">2023 - 2024 </time>
-          </div>
-          <div
-            class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#bfded9ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
-            v-motion-slide-visible-right
-          >
-            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
-              Meta Front-End Developer || Coursera & Indonesia Cyber Education
-              Institute
-            </h1>
-            <time datetime="">2024 - 2025</time>
-          </div>
-          <div
-            class="mr-3 mt-3 flex flex-col gap-1 min-h-fit max-w-[400px] rounded-xl bg-[#bfded9ff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8"
-            v-motion-slide-visible-right
-          >
-            <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
-              Jabar Digital Academy || Alkademi Digital
-            </h1>
-            <time datetime="">April - June 2024</time>
+        <div class="overflow-x-auto scroll-smooth pb-2 scrollbar-hide w-full">
+          <div class="inline-flex gap-4">
+            <CardExperience :name="'Participate in Program Campus Code by Devhandal'" :time="'Jan, 2023 - okt, 2023'" />
+            <CardExperience
+              :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
+              :time="'Sep, 2023 - okt, 2023'" />
+            <CardExperience
+              :name="'Participate in Meta Front-End Developer || Coursera & Indonesia Cyber Education Institute'"
+              :time="'Jan, 2024 - June, 2024'" />
+            <CardExperience :name="'Participate in Jabar Digital Academy || Alkademi Digital'"
+              :time="'April, 2024 - June, 2024'" />
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+import CardExperience from "./Card/CardExperience.vue";
+export default {
+  components: {
+    CardExperience,
+  },
+};
+</script>

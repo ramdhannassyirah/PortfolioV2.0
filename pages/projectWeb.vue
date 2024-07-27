@@ -1,20 +1,9 @@
 <template>
-  <section>
-    <div class="flex flex-col items-center justify-center min-h-screen gap-3">
-      <CardProjects
-        v-for="project in projects"
-        :key="project.id"
-        :Img="project.img"
-        :title="project.title"
-        :link="project.link"
-        :desc="project.desc"
-        v-motion-slide-visible-right
-        :delay="300"
-        :tech="project.tech"
-      />
-      <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/"
-        >- Back -</NuxtLink
-      >
+  <section class="container px-4 mx-auto">
+    <div class="flex flex-col items-center w-42 justify-center min-h-screen gap-3">
+      <CardProjects v-for="project in projects" :key="project.id" :Img="project.img" :title="project.title"
+        :link="project.link" :desc="project.desc" v-motion-slide-visible-right :delay="300" :tech="project.tech" />
+      <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/">- Back -</NuxtLink>
     </div>
     <buttonBar />
   </section>

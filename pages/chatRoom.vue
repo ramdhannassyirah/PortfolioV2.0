@@ -2,36 +2,21 @@
   <div class="flex flex-col justify-center">
     <div class="flex justify-center w-full">
       <main
-        class="no-scrollbar w-full scroll-smooth transition-all px-5 lg:px-0 md:px-0 duration-300 lg:min-h-screen lg:max-w-[854px]"
-      >
+        class="no-scrollbar w-full scroll-smooth transition-all px-5 lg:px-0 md:px-0 duration-300 lg:min-h-screen lg:max-w-[854px]">
         <div class="my-6">
           <h1 class="text-2xl font-bold">Chat Room</h1>
           <p>Kirimkan Pesan Sekarang Juga</p>
         </div>
-        <div
-          ref="chatContainer"
-          class="no-scrollbar mb-4 h-[60vh] space-y-6 overflow-y-auto scroll-smooth border-b border-neutral-200 pb-2 dark:border-neutral-700 md:h-[65vh]"
-        >
+        <div ref="chatContainer"
+          class="no-scrollbar mb-4 h-[60vh] scrollbar-hide space-y-6 overflow-y-auto scroll-smooth border-b border-neutral-200 pb-2 dark:border-neutral-700 md:h-[65vh]">
           <div class="flex flex-col gap-6">
-            <CardChat
-              v-for="data in chatData"
-              :key="data"
-              :pesan="data.pesan"
-              :tanggal="data.tanggal"
-              :name="data.name"
-            />
+            <CardChat v-for="data in chatData" :key="data" :pesan="data.pesan" :tanggal="data.tanggal"
+              :name="data.name" />
           </div>
         </div>
-        <div
-          v-if="isLogin"
-          class="flex items-center justify-between w-full bg-[#fbeee0] rounded-full input"
-        >
-          <textarea
-            ref="messageInput"
-            type="text"
-            placeholder="Type a message"
-            class="w-full p-2 text-xl placeholder:text-[#422800] font-bold bg-transparent outline-none"
-          />
+        <div v-if="isLogin" class="flex items-center justify-between w-full bg-[#fbeee0] rounded-full input">
+          <input ref="messageInput" type="text" placeholder="Type a message"
+            class="w-full p-2 text-xl placeholder:text-[#422800] font-bold bg-transparent outline-none" />
           <button @click="sendData" class="button-74" role="button">
             SEND
           </button>
@@ -41,16 +26,14 @@
         </div>
       </main>
     </div>
-  </div>
-  <div class="flex justify-center">
-    <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/"
-      >- Back -</NuxtLink
-    >
+    <div class="flex justify-center">
+      <NuxtLink class="my-10 text-2xl font-bold rounded-lg button-54" to="/">- Back -</NuxtLink>
+    </div>
   </div>
 </template>
 
 <script>
-import {collection, onSnapshot, addDoc} from "firebase/firestore";
+import { collection, onSnapshot, addDoc } from "firebase/firestore";
 import db from "../firebase";
 
 export default {

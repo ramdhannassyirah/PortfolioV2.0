@@ -1,4 +1,3 @@
-import { NuxtLink } from '#build/components';
 <template>
   <section id="hero " class="container mx-auto">
     <div
@@ -6,18 +5,11 @@ import { NuxtLink } from '#build/components';
     >
       <div class="flex flex-col">
         <h1
-          class="text-[#38312fff] text-2xl font-DotGothic16"
-          v-motion-slide-visible-bottom
+          class="text-[#38312fff] text-3xl font-DotGothic16"
+          v-motion-slide-visible-left
           :delay="500"
         >
           i'm
-          <span>
-            <NuxtLink
-              to="/#about"
-              class="text-xl text-[#38312fff] bg-[#e8e3d5ff] px-3 font-bold cursor-pointer"
-              >About Me -></NuxtLink
-            >
-          </span>
         </h1>
         <div
           class="text-[#38312fff] text-6xl md:text-9xl font-DotGothic16"

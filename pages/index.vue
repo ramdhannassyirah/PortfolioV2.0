@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="max-w-7xl mx-auto md:px-5">
     <heroWeb />
     <aboutWeb />
     <projectsWeb />
