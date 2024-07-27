@@ -55,31 +55,58 @@
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           Experience
         </h1>
-        <div class="relative flex overflow-x-hidden ">
-          <div class="py-12 flex animate-marquee  ">
-            <CardExperience :name="'Participate in Program Campus Code by Devhandal'" :time="'Jan, 2023 - okt, 2023'" />
-            <CardExperience
-              :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
-              :time="'Sep, 2023 - okt, 2023'" />
-            <CardExperience
-              :name="'Participate in Meta Front-End Developer || Coursera & Indonesia Cyber Education Institute'"
-              :time="'Jan, 2024 - June, 2024'" />
-            <CardExperience :name="'Participate in Jabar Digital Academy || Alkademi Digital'"
-              :time="'April, 2024 - June, 2024'" />
-          </div>
 
-          <div class="absolute flex top-0 py-12   animate-marquee2 ">
-            <CardExperience :name="'Participate in Program Campus Code by Devhandal'" :time="'Jan, 2023 - okt, 2023'" />
-            <CardExperience
-              :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
-              :time="'Sep, 2023 - okt, 2023'" />
-            <CardExperience
-              :name="'Participate in Meta Front-End Developer || Coursera & Indonesia Cyber Education Institute'"
-              :time="'Jan, 2024 - June, 2024'" />
-            <CardExperience :name="'Participate in Jabar Digital Academy || Alkademi Digital'"
-              :time="'April, 2024 - June, 2024'" />
+        <div class="overflow-x-hidden pb-3 w-full">
+          <div class="flex space-x-4">
+            <div class="marquee-container inline-flex gap-4 animate-marquee  ">
+              <CardExperience :name="'Participate in Program Campus Code by Devhandal'"
+                :time="'Jan, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
+                :time="'Sep, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Meta Front-End Developer || Coursera & Indonesia Cyber Education Institute'"
+                :time="'Jan, 2024 - June, 2024'" />
+              <CardExperience :name="'Participate in Jabar Digital Academy || Alkademi Digital'"
+                :time="'April, 2024 - June, 2024'" />
+              <!-- Duplicate content for seamless scrolling -->
+              <CardExperience :name="'Participate in Program Campus Code by Devhandal'"
+                :time="'Jan, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
+                :time="'Sep, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Meta Front-End Developer || Coursera & Indonesia Cyber Education Institute'"
+                :time="'Jan, 2024 - June, 2024'" />
+              <CardExperience :name="'Participate in Jabar Digital Academy || Alkademi Digital'"
+                :time="'April, 2024 - June, 2024'" />
+            </div>
+            <div class="marquee-container inline-flex gap-4 animate-marquee2 ">
+              <CardExperience :name="'Participate in Program Campus Code by Devhandal'"
+                :time="'Jan, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
+                :time="'Sep, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Meta Front-End Developer || Coursera & Indonesia Cyber Education Institute'"
+                :time="'Jan, 2024 - June, 2024'" />
+              <CardExperience :name="'Participate in Jabar Digital Academy || Alkademi Digital'"
+                :time="'April, 2024 - June, 2024'" />
+              <!-- Duplicate content for seamless scrolling -->
+              <CardExperience :name="'Participate in Program Campus Code by Devhandal'"
+                :time="'Jan, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Bootcamp Online Sekolah Beta Intensif Hacker Progressive Web Apps Menggunakan Nuxt JS'"
+                :time="'Sep, 2023 - okt, 2023'" />
+              <CardExperience
+                :name="'Participate in Meta Front-End Developer || Coursera & Indonesia Cyber Education Institute'"
+                :time="'Jan, 2024 - June, 2024'" />
+              <CardExperience :name="'Participate in Jabar Digital Academy || Alkademi Digital'"
+                :time="'April, 2024 - June, 2024'" />
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>

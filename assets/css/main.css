@@ -16,3 +16,7 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
 }
+
+.marquee-container {
+  animation: marquee 40s linear infinite; /* Adjust timing as needed */
+}
