@@ -55,7 +55,7 @@
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           Experience
         </h1>
-        <div class="relative  flex overflow-x-hidden ">
+        <div class="relative flex overflow-x-hidden ">
           <div class="py-12 flex animate-marquee  ">
             <CardExperience :name="'Participate in Program Campus Code by Devhandal'" :time="'Jan, 2023 - okt, 2023'" />
             <CardExperience
