@@ -55,7 +55,7 @@
         <h1 class="text-5xl font-DotGothic16 text-[#38312fff] font-bold">
           Experience
         </h1>
-        <div class="overflow-x-auto scroll-smooth pb-2 scrollbar-hide w-full">
+        <div class="overflow-x-auto scroll-smooth pb-3 scrollbar-hide w-full">
           <div class="inline-flex gap-4">
             <CardExperience :name="'Participate in Program Campus Code by Devhandal'" :time="'Jan, 2023 - okt, 2023'" />
             <CardExperience
