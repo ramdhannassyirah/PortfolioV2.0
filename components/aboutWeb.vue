@@ -39,7 +39,7 @@
               Skills Programming
             </h1>
             <p>
-              HTML5, CSS, Javascript(ES6+), Vuejs, Nuxtjs, Git/Github, and
+              HTML5, CSS, Javascript(ES6+), Vuejs, Nuxtjs, Git/Github, Laravel, and
               Firebase.
             </p>
           </div>

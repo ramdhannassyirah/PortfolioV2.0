@@ -2,8 +2,16 @@ import imgBook from "./assets/img/bookself-apps.png";
 import imgToDo from "./assets/img/ToDoList.png";
 import imgConsumeApi from "./assets/img/consume-api.png";
 import ImgKasirinAja from "./assets/img/KasirinAja.png";
+import ImgDesaWisata from "./assets/img/DesaWisata.png";
 
 const Project = [
+  {
+    title: "Desa Wisata Sukarame",
+    link: "https://github.com/khalilannbiya/desa-wisata",
+    desc: "Capstone Project Desa Wisata Sukarame Merupakan sebuah Website sederhana yang memungkinkan pengguna untuk mencari informasi wisata di Sukarame, Projek ini dibuat dengan Laravel, MySQL, dan Tailwind CSS.",
+    img: ImgDesaWisata,
+    tech: ["Laravel", "MYSQL", "Tailwind CSS"],
+  },
   {
     title: "Kasirin Aja",
     link: "https://github.com/ramdhannassyirah/KasirinAja",
