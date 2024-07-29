@@ -18,9 +18,9 @@
           </svg></a>
         <a :href="link" target="_blank" class=" font-semibold text-xl">Link Demo</a>
       </div>
-			<div>
+			<div class="flex gap-2">
 				<p
-          class="text-xs flex gap-2 font-semibold text-foreground/50 md:text-sm"
+          class="text-xs font-semibold text-foreground/50 md:text-sm"
           v-for="item in tech"
           :key="item"
         >
