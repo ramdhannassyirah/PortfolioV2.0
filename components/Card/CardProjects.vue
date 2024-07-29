@@ -18,6 +18,15 @@
           </svg></a>
         <a :href="link" target="_blank" class=" font-semibold text-xl">Link Demo</a>
       </div>
+			<div>
+				<p
+          class="text-xs font-semibold text-foreground/50 md:text-sm"
+          v-for="item in tech"
+          :key="item"
+        >
+          {{ item }}
+        </p>
+			<\div>
       <div class="flex flex-col gap-2 ">
         <h1 class="text-2xl  font-bold text-foreground">{{ title }}</h1>
         <p class="md:text-md text-sm font-semibold text-balance ">{{ desc }}</p>
