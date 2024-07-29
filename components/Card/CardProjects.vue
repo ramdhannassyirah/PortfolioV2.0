@@ -26,7 +26,7 @@
         >
           {{ item }}
         </p>
-			<\div>
+			</div>
       <div class="flex flex-col gap-2 ">
         <h1 class="text-2xl  font-bold text-foreground">{{ title }}</h1>
         <p class="md:text-md text-sm font-semibold text-balance ">{{ desc }}</p>
