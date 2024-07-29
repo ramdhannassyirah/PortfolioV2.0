@@ -20,7 +20,7 @@
       </div>
 			<div>
 				<p
-          class="text-xs font-semibold text-foreground/50 md:text-sm"
+          class="text-xs flex gap-2 font-semibold text-foreground/50 md:text-sm"
           v-for="item in tech"
           :key="item"
         >
