@@ -1,10 +1,10 @@
 <template>
   <div
-    class="mr-3 mt-3 min-h-fit flex flex-col justify-between gap-1 w-[400px] rounded-xl bg-[#eda29aff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8">
+    class="mr-3 mt-3 min-h-fit flex flex-col justify-between gap-1 w-[400px] rounded-xl bg-[#b0d1ceff] shadow-[5px_5px_0px_0px_rgba(56,49,47)] p-4 sm:pe-8">
     <h1 class="font-bold text-[#38312fff] font-Nunito-Sans">
       {{ name }}
     </h1>
-    <p>{{ time }}</p>
+    <p class="text-bold">{{ time }}</p>
   </div>
 </template>
 

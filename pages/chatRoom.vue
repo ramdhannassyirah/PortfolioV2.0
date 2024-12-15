@@ -15,7 +15,7 @@
           </div>
         </div>
         <div v-if="isLogin" class="flex items-center justify-between w-full bg-[#fbeee0] rounded-full input">
-          <input ref="messageInput" type="text" placeholder="Type a message"
+          <input ref="messageInput" type="text" placeholder="Masukan Pesan Disini" @keyup.enter="sendData"
             class="w-full p-2 text-xl placeholder:text-[#422800] font-bold bg-transparent outline-none" />
           <button @click="sendData" class="button-74" role="button">
             SEND
